@@ -3,7 +3,7 @@
 - Python 3.6 
 - Analysis libraries: numpy, pandas
 - Visualization libraries: matplotlib, seaborn, plotly (interactive visualization), [pycountry](https://github.com/jefftune/pycountry-convert) (get continent name from country)
-- Author: Fares Hassan
+- Author: Fares Hassan (Faculty of Computer and Information Science | Mansoura University)
 - The Life Expectancy (WHO) dataset: https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who
 - Notebook with details coding: https://colab.research.google.com/drive/1mBUkAd-4lHYLkeDcDXAldlwRcjMwsvUQ
 ## Introduction
