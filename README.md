@@ -22,7 +22,7 @@ influencing life expectancy?
 ### Detecting and Handling missing values
 - **Detecting missing values**
 
-![detect missing values](charts/detect_missing_values.png)
+![image](https://user-images.githubusercontent.com/117833217/205428393-9ab85efe-22d1-4b2e-9d33-9c0e94b831b4.png)
 - **Dealing with Missing values**
 
 Using the mean (average) value of the year to replace missing values.
@@ -35,12 +35,12 @@ for year in list(df.year.unique()):
     imputed_data.append(year_data)
 df = pd.concat(imputed_data).copy()
 ```
-![handle_missing_values2](charts/handle_missing_values2.png)
+![image](https://user-images.githubusercontent.com/117833217/205428407-9966c4c9-156b-45e1-ace8-05684232c720.png)
 ### Detecting and Handling outliers
 - **Checking Data Distribution with Histogram and Box Plots**
 
-![check_distribution1](charts/check_distribution1.png)
-![check_distribution2](charts/check_distribution2.png)
+![image](https://user-images.githubusercontent.com/117833217/205428417-48318f8f-f4a9-4569-9022-f83fa01ff49d.png)
+![image](https://user-images.githubusercontent.com/117833217/205428422-e581f230-c4ed-4302-9a11-15f0b32db23c.png)
 
 - **Retrieving outliers’ data with IQR score**
 ```ruby
@@ -72,16 +72,16 @@ def test_wins(col, lower_limit=0, upper_limit=0, show_plot=True):
         plt.title('wins=({},{}) {}'.format(lower_limit, upper_limit, col))
         plt.show()
 ```
-![dealing_outliers_charts](charts/dealing_outliers_charts.png)
+![image](https://user-images.githubusercontent.com/117833217/205428446-4e28fabe-16f7-4ea7-9f17-f35eac07b9a2.png)
 ## Data Visualization
 ### Question 1: What are the actual factors influencing life expectancy?
-![q1_heatmap](charts/heatmap.png)
+![image](https://user-images.githubusercontent.com/117833217/205428477-6ee1e14d-9e41-4e6c-a32c-2c3539b77005.png)
 ### Question 2: What effect does immunisation coverage have on life expectancy in two groups developing and developed countries?
-![q2](charts/q2.png)
+![image](https://user-images.githubusercontent.com/117833217/205428481-b6ea26c9-1a0b-4414-be99-4cc0a17ed463.png)
 ### Question 3: What effect does Schooling and Alcohol have on Life Expectancy?
-![q3](charts/q3.png)
+![image](https://user-images.githubusercontent.com/117833217/205428490-b0c0c8f6-5f1e-42c4-a274-1e682cbb30c6.png)
 ### Question 4: What effect does GDP have on life expectancy?
-![q4_worldmap](charts/q4_worldmap.png)
+![image](https://user-images.githubusercontent.com/117833217/205428496-4da1c127-8f51-4af4-8220-1bb51e5f5216.png)
 ## Conclusion
 1. The World Health Organization's data set on variables impacting life expectancy still has a lot of missing numbers. These missing data values are primarily seen in nations with small populations, where data sources are not abundant.
 2. This dataset also contains numerous outliers that have been reprocessed using the Winsorization approach.
